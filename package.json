@@ -1,0 +1,20 @@
+{
+  "name": "react-native-node-assist",
+  "version": "0.0.2",
+  "description": "assistance tool of react native",
+  "homepage": "https://github.com/pefish/react-native-assist",
+  "bugs": "https://github.com/pefish/react-native-assist/issues",
+  "license": "MIT",
+  "author": "pefish",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pefish/react-native-assist"
+  },
+  "scripts": {
+    "build": "rm -rf lib && babel src -d lib"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "buffer": "^5.2.1"
+  }
+}
